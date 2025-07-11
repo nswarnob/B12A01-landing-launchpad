@@ -1,27 +1,29 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color:rgb(245, 248, 255);
+
+body {
+    background-color: rgb(245, 248, 255);
 }
 
 /* font style */
 .raleway-normal {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
-.inter-normal{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 /*shared style*/
-.btn-primary{
-    background-color:rgb(78, 71, 255);
+.btn-primary {
+    background-color: rgb(78, 71, 255);
     color: white;
     font-size: 16px;
     font-weight: semi-bold;
@@ -31,29 +33,32 @@ body{
     border: none;
     border-radius: 10px;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: white;
-    color:rgb(78, 71, 255);
+    color: rgb(78, 71, 255);
     cursor: pointer;
     transition: 0.5s;
 }
 
-.primary-text-color{
+.primary-text-color {
     color: rgb(78, 71, 255);
 }
-.section-title{
+
+.section-title {
     font-size: 40px;
     color: 252432;
 
 }
-.section-description{
+
+.section-description {
     font-size: 24px;
-    color:rgb(130, 129, 129);
+    color: rgb(130, 129, 129);
     margin-top: 23px;
 }
 
 /*nav styles*/
-nav{
+nav {
     max-width: 1140px;
     display: flex;
     align-items: center;
@@ -61,136 +66,151 @@ nav{
     padding: 50px;
     margin: 0px 150px;
 }
-nav .logo{
- font-size: 34px;
+
+nav .logo {
+    font-size: 34px;
 }
 
 /*header styles*/
-header{
-background-image: url(/Assets/Hero-bg.png);
-width: 100%;
-height: 100vh;
+header {
+    background-image: url(/Assets/Hero-bg.png);
+    width: 100%;
+    height: 100vh;
 }
-.header-container{
+
+.header-container {
     text-align: center;
     margin: 155px 265px;
 
 }
-.header-title{
+
+.header-title {
     font-size: 65px;
     font-weight: bold;
 }
-.header-btn{
+
+.header-btn {
     margin-top: 35px;
     width: 170px;
 }
 
 /*main styles*/
-main{
-    margin:135px 155px;
+main {
+    margin: 135px 155px;
 }
 
 /* first section styles */
-.first-section{
+.first-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.first-section img{
+
+.first-section img {
     width: 400px;
     height: 300px;
     border-radius: 48px;
 }
-.launch-btn{
+
+.launch-btn {
     margin-top: 23px;
-    width:230px;
+    width: 230px;
 }
-.section-content{
+
+.section-content {
     max-width: 500px;
 
 }
 
 /* second section styles */
-.second-section{
+.second-section {
     text-align: center;
     background-color: rgb(229, 231, 255);
     padding: 50px 150px;
-    margin:130px 0;
+    margin: 130px 0;
     border-radius: 24px;
 }
-.sec-section-title{
+
+.sec-section-title {
     font-size: 38px;
     font-weight: bold;
 }
 
-.items{
+.items {
     display: flex;
     justify-content: space-around;
-    gap:158px;
+    gap: 158px;
 }
-.main-item{
+
+.main-item {
     font-size: 60px;
     font-weight: bold;
     color: rgb(78, 71, 255);
-    margin-top:40px;
+    margin-top: 40px;
 }
-.item-des{
+
+.item-des {
     font-size: 20px;
-    margin-bottom:50px ;
+    margin-bottom: 50px;
 }
 
 /* Third Section styles*/
-.third-section{
+.third-section {
     text-align: center;
 }
 
-.rvws{
+.rvws {
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
     text-align: left;
-    gap:24px;
+    gap: 24px;
     box-shadow: rgb(221, 220, 220);
 }
-.rvw{
-    border:1px solid rgb(242,237,237,100%);
+
+.rvw {
+    border: 1px solid rgb(242, 237, 237, 100%);
     border-radius: 10px;
     background-color: #ffff;
     padding: 24px;
 }
-.rvw-title{
+
+.rvw-title {
     margin-top: 24px;
     margin-bottom: 8px;
 }
-.rvw-des{
+
+.rvw-des {
     margin-bottom: 24px;
 }
-.rvw .rvw-giver{
+
+.rvw .rvw-giver {
     display: flex;
 
 }
-.rvw .rvw-giver .giver{
+
+.rvw .rvw-giver .giver {
     margin-right: 16px;
     border-radius: 9999px;
 }
 
-.rvw .rvw-giver .giver-info{
-    color:rgb(147, 142, 142) ;
+.rvw .rvw-giver .giver-info {
+    color: rgb(147, 142, 142);
     margin-top: 5px;
 }
 
-.rvw .rvw-giver .giver-info .name{
+.rvw .rvw-giver .giver-info .name {
     font-size: 12px;
     font-weight: 600;
     margin-bottom: 8px;
 }
 
-.rvw .rvw-giver .giver-info .details{
+.rvw .rvw-giver .giver-info .details {
     font-size: 10px;
 }
 
 /* fourth section styles */
-.fourth-section{
+.fourth-section {
     display: block;
     text-align: center;
     margin-top: 135px;
@@ -198,71 +218,97 @@ main{
     padding: 71px 130px;
     border-radius: 14px;
 }
-.free-btn{
-    width:200px;
+
+.free-btn {
+    width: 200px;
     margin-bottom: 20px;
 }
-.fourth-section img{
+
+.fourth-section img {
     width: 700px;
     height: 330px;
     border-radius: 48px;
 }
-.fourth-des{
-font-size: 15px;
-margin:20px 0;
+
+.fourth-des {
+    font-size: 15px;
+    margin: 20px 0;
 }
 
 /* fifth section styles */
-.fifth-section{
+.fifth-section {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 135px;
-    padding:20px 0;
-    gap:100px;
+    padding: 20px 0;
+    gap: 100px;
 }
-.section-col{
+
+.section-col {
     width: 50%;
 }
-.touch-title{
+
+.touch-title {
     font-size: 80px;
 }
 
-.section-col input[type="text"], .section-col input[type="email"], .section-col textarea{
-    height:64px;
-    border-radius:5px;
-    background-color:white;
-    display: block;
-    width:100%;
-    padding:10px 20px;
-    margin-bottom: 24px;
-    border:1px solid rgb(242,237,237,100%);
+label {
+    font-size: 18px;
+    font-weight: 500;
 }
 
-.touch-btn{
+.section-col input[type="text"],
+.section-col input[type="email"],
+.section-col textarea {
+    height: 64px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: 1px solid rgb(242, 237, 237, 100%);
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+.section-col textarea {
+    width: 100%;
+    height: 150px;
+    padding: 20px 32px;
+}
+
+
+.touch-btn {
     width: 100%;
 }
 
 /* footer styles */
 
-footer{
+footer {
     text-align: center;
     background-color: white;
     padding: 100px 430px;
 }
-.footer-logo{
+
+.footer-logo {
     font-size: 96px;
 }
-.menu{
+
+.menu {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
 }
-.menu li{
+
+.menu li {
     list-style: none;
 }
-.menu li a{
+
+.menu li a {
     text-decoration: none;
-    color:rgb(130, 129, 129) ;
-    
+    color: rgb(130, 129, 129);
+
 }
