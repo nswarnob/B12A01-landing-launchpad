@@ -1,3 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(245, 248, 255);
+}
+
+/* font style */
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -8,12 +18,10 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-body{
-    background-color: white;
-}
+
 /*shared style*/
 .btn-primary{
-    background-color: blue;
+    background-color:rgb(78, 71, 255);
     color: white;
     font-size: 16px;
     font-weight: semi-bold;
@@ -25,21 +33,23 @@ body{
 }
 .btn-primary:hover{
     background-color: white;
-    color:blue;
+    color:rgb(78, 71, 255);
     cursor: pointer;
     transition: 0.5s;
 }
 
 .primary-text-color{
-    color: blue;
+    color: rgb(78, 71, 255);
 }
 .section-title{
     font-size: 40px;
     color: 252432;
+
 }
 .section-description{
     font-size: 24px;
     color:rgb(130, 129, 129);
+    margin-top: 23px;
 }
 
 /*nav styles*/
@@ -48,8 +58,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 50px;
-    margin: 0 150px;
+    padding: 50px;
+    margin: 0px 150px;
 }
 nav .logo{
  font-size: 34px; 
@@ -71,6 +81,7 @@ height: 100vh;
     font-weight: bold;
 }
 .header-btn{
+    margin-top: 35px;
     width: 170px;
 }
 
@@ -91,6 +102,7 @@ main{
     border-radius: 48px;
 }
 .launch-btn{
+    margin-top: 23px;
     width:230px;
 }
 .section-content{
@@ -100,29 +112,80 @@ main{
 
 /* second section styles */
 .second-section{
-    
+    text-align: center;
+    background-color: rgb(229, 231, 255);
+    padding: 50px 150px;
+    margin:130px 0;
+    border-radius: 24px;
 }
 .sec-section-title{
     font-size: 38px;
     font-weight: bold;
 }
-.second-sec-container{
-    text-align: center;
-    background-color: rgb(214, 214, 229);
-    padding: 50px 150px;
-    margin:130px 0;
-    border-radius: 24px;
 
-}
 .items{
     display: flex;
     justify-content: space-around;
+    gap:158px;
 }
 .main-item{
     font-size: 60px;
     font-weight: bold;
-    color: blue;
+    color: rgb(78, 71, 255);
+    margin-top:40px;
 }
 .item-des{
     font-size: 20px;
+    margin-bottom:50px ;
 }
+
+/* Third Section styles*/
+.third-section{
+    text-align: center;
+}
+
+.rvws{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: left;
+    gap:24px;
+    box-shadow: rgb(221, 220, 220);
+}
+.rvw{
+    border:1px rgb(242,237,237,100%);
+    border-radius: 10px;
+    background-color: #ffff;
+    padding: 24px;
+}
+.rvw-title{
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.rvw-des{
+    margin-bottom: 24px;
+}
+.rvw .rvw-giver{
+    display: flex;
+
+}
+.rvw .rvw-giver .giver{
+    margin-right: 16px;
+    border-radius: 9999px;
+}
+
+.rvw .rvw-giver .giver-info{
+    color:rgb(147, 142, 142) ;
+    margin-top: 5px;
+}
+
+.rvw .rvw-giver .giver-info .name{
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.rvw .rvw-giver .giver-info .details{
+    font-size: 10px;
+}
+
