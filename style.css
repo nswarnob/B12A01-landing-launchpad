@@ -3,6 +3,14 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body{
+    background-color: white;
+}
 /*shared style*/
 .btn-primary{
     background-color: blue;
@@ -25,8 +33,14 @@
 .primary-text-color{
     color: blue;
 }
-
-
+.section-title{
+    font-size: 40px;
+    color: 252432;
+}
+.section-description{
+    font-size: 24px;
+    color:rgb(130, 129, 129);
+}
 
 /*nav styles*/
 nav{
@@ -58,4 +72,57 @@ height: 100vh;
 }
 .header-btn{
     width: 170px;
+}
+
+/*main styles*/
+main{
+    margin:135px 155px;
+}
+
+/* first section styles */
+.first-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first-section img{
+    width: 400px;
+    height: 300px;
+    border-radius: 48px;
+}
+.launch-btn{
+    width:230px;
+}
+.section-content{
+    max-width: 500px;
+
+}
+
+/* second section styles */
+.second-section{
+    
+}
+.sec-section-title{
+    font-size: 38px;
+    font-weight: bold;
+}
+.second-sec-container{
+    text-align: center;
+    background-color: rgb(214, 214, 229);
+    padding: 50px 150px;
+    margin:130px 0;
+    border-radius: 24px;
+
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+}
+.main-item{
+    font-size: 60px;
+    font-weight: bold;
+    color: blue;
+}
+.item-des{
+    font-size: 20px;
 }
