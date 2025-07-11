@@ -62,7 +62,7 @@ nav{
     margin: 0px 150px;
 }
 nav .logo{
- font-size: 34px; 
+ font-size: 34px;
 }
 
 /*header styles*/
@@ -153,7 +153,7 @@ main{
     box-shadow: rgb(221, 220, 220);
 }
 .rvw{
-    border:1px rgb(242,237,237,100%);
+    border:1px solid rgb(242,237,237,100%);
     border-radius: 10px;
     background-color: #ffff;
     padding: 24px;
@@ -189,3 +189,80 @@ main{
     font-size: 10px;
 }
 
+/* fourth section styles */
+.fourth-section{
+    display: block;
+    text-align: center;
+    margin-top: 135px;
+    background-color: #ffff;
+    padding: 71px 130px;
+    border-radius: 14px;
+}
+.free-btn{
+    width:200px;
+    margin-bottom: 20px;
+}
+.fourth-section img{
+    width: 700px;
+    height: 330px;
+    border-radius: 48px;
+}
+.fourth-des{
+font-size: 15px;
+margin:20px 0;
+}
+
+/* fifth section styles */
+.fifth-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 135px;
+    padding:20px 0;
+    gap:100px;
+}
+.section-col{
+    width: 50%;
+}
+.touch-title{
+    font-size: 80px;
+}
+
+.section-col input[type="text"], .section-col input[type="email"], .section-col textarea{
+    height:64px;
+    border-radius:5px;
+    background-color:white;
+    display: block;
+    width:100%;
+    padding:10px 20px;
+    margin-bottom: 24px;
+    border:1px solid rgb(242,237,237,100%);
+}
+
+.touch-btn{
+    width: 100%;
+}
+
+/* footer styles */
+
+footer{
+    text-align: center;
+    background-color: white;
+    padding: 100px 430px;
+}
+.footer-logo{
+    font-size: 96px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    color:rgb(130, 129, 129) ;
+    
+}
